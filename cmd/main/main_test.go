@@ -129,9 +129,3 @@ func TestMainHandler(t *testing.T) {
 		})
 	}
 }
-
-//SELECT SUM(views) AS sm, channel_title FROM videos GROUP BY channel_title DESC LIMIT 30
-//Составьте SQL запрос, который выводит 30 самых популярных каналов,
-//отсортированных по убыванию количества просмотров.
-//	Используйте GROUP BY и агрегирующие функции SUM(), COUNT(), AVG().
-//Пример результата:
